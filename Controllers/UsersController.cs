@@ -10,9 +10,7 @@ using UdemyDotNetProjectNew.Entities;
 
 namespace UdemyDotNetProjectNew.Controllers
 {
-    [ApiController]
-    [Route("api/[controller]")]
-    public class UsersController : ControllerBase
+    public class UsersController : BaseAPIController
     {
         private readonly DataContext _context;
 
